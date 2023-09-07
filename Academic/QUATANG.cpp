@@ -11,8 +11,6 @@ int main() {
     ll a[n + 1];
     for (int i = 0; i < n; i++) cin >> a[i];
     sort(a, a + n);
-    for (int i = 0; i < n; i++) cout << a[i] << " ";
-    cout << endl;
 
     ll ans = 0;
     for (int i = 0; i < n; i++) {
